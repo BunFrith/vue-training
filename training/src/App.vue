@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <ToDoList :todos="todos" @delete-todo="deleteTodo"/>
+    <ToDoList :todos="todos" @delete-todo="deleteTodo" />
   </div>
 </template>
 
